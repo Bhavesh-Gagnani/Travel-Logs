@@ -1,0 +1,262 @@
+<html>
+<head>
+    <title>Travel Logs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/Logo/Top-Logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img src="Images/Logo/Logo.png" height="60"></a>
+        <div class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#client">Client</a></li>
+                <li><a href="#booking">Booking</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+        </div>
+        <h4 class="log" onclick="show()">Login</h4>
+    </nav>
+
+    <div class="log-container" id="login">
+        <div class="log-content">
+            <i class="fa-solid fa-xmark" id="close" onclick="hide()"></i>
+            <div class="log-con">
+                <form action="index.php">
+                    <h6>Log in</h6>
+                    <input type="email" name="Email" placeholder="Email" id="Email"><br>
+                    <input type="password" name="password" placeholder="Password" id="password"><br>
+                    <input type="submit" id="submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <header id="home">
+        <div class="header-content">
+            <div class="header-col-1">
+                <h1>Travel to your dream destination</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente rerum error molestiae dicta mollitia quos beatae voluptatem corporis voluptatibus iure, pariatur repudiandae illum dolorum fuga consequatur a, omnis blanditiis vitae.</p>
+                <a href="#">Reserve Ticket</a>
+            </div>
+            <div class="header-col-2">
+                <img src="Images/Images/Img-1.jpg">
+            </div>
+        </div>
+    </header>
+
+    <section class="second-content">
+        <div class="second-1">
+            <h1>Create a memory to remember</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia qui esse asperiores similique voluptas non a eum perspiciatis obcaecati pariatur exercitationem sed reiciendis labore ea, repudiandae facere modi! Sequi, esse.</p>
+            <a href="#">My Travel Logs</a>
+        </div>
+    </section>
+
+    <section class="third-content">
+        <div class="third-row">
+            <div class="third-col-1">
+                <img src="Images/Images/Img-2.jpg">
+                <h1>Lorem ipsum<br>dolor sit amet.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta similique eaque eveniet ab magni debitis minima enim! Natus amet hic quae consectetur cum illum sapiente aut impedit repudiandae vel! Tempore.</p>
+            </div>
+            <div class="third-col-2">
+                <img src="Images/Images/Img-3.jpg">
+                <h1>Lorem ipsum<br>dolor sit amet.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore natus, eos incidunt possimus corporis deserunt, est fugiat iusto consequatur, minima provident! Iste qui minus error dolore explicabo nostrum perspiciatis neque.</p>
+            </div>
+            <div class="third-col-3">
+                <img src="Images/Images/Img-4.jpg">
+                <h1>Lorem ipsum<br>dolor sit amet.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur facilis atque, placeat ad quisquam nobis sequi error consectetur sapiente mollitia fugit, nam maxime vitae voluptatem tenetur delectus. Blanditiis, expedita vitae.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="fourth-content">
+        <div class="fourth-col-1">
+            <h6><i class="fa-solid fa-plane-up" id="i1"></i></h6>
+            <h1>See places you've <i>never</i> been before</h1>
+            <p>Lorem ipsum dolor | Lorem ipsum dolor | Lorem ipsum dolor</p>
+        </div>
+    </section>
+
+    <section class="fifth-content">
+        <div class="fifth-row">
+            <div class="fifth-col-1">
+                <img src="Images/Images/Img-5.jpg">
+            </div>
+            <div class="fifth-col-2">
+                <div class="fifth-col-2-1">
+                    <img src="Images/Images/Img-6.jpg">
+                </div>
+                <div class="fifth-col-2-2">
+                    <div class="fifth-col-2-2-1">
+                        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, error quia.</h1>
+                    </div>
+                    <div class="fifth-col-2-2-2">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus tempore corrupti minus accusamus laborum animi beatae minima reiciendis harum odit quos reprehenderit veritatis neque, sit dignissimos repellat!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis tenetur rerum nemo quidem veniam necessitatibus tempora odit praesentium, delectus incidunt. Architecto voluptates neque excepturi esse repellat perspiciatis!</p>
+                        <div class="fifth-col-2-2-2-1">
+                            <i class="fa-solid fa-arrow-right-long" id="i2"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="six-content">
+        <div class="six-row">
+            <div class="six-col-1">
+                <h1>Choose anywhere you'd like to be</h1>
+                <h4>Lorem, ipsum dolor</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam hic harum nobis repellendus ab aliquid provident quos eum corporis, excepturi cumque omnis ex, corrupti nisi ut, reiciendis accusantium? Aspernatur, dolore.</p>
+                <h4>Lorem, ipsum dolor</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit qui delectus amet numquam, minus repudiandae eaque beatae quam asperiores, autem at fugiat ipsa similique itaque quisquam dicta cupiditate quis porro!</p>
+            </div>
+            <div class="six-col-2">
+                <img src="Images/Images/Img-7.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section class="seven-content">
+        <div class="seven-row">
+            <div class="seven-col-1">
+                <h1>Lorem ipsum dolor sit amet consectetur</h1>
+                <table>
+                    <tr>
+                        <td>Lorem ipsum dolor sit amet adipisicing elit. Ratione deserunt!</td>
+                        <td id="td-1">+</td>
+                    </tr>
+                    <tr>
+                        <td>Lorem ipsum dolor sit amet adipisicing elit. Ratione deserunt!</td>
+                        <td id="td-1">+</td>
+                    </tr>
+                    <tr>
+                        <td>Lorem ipsum dolor sit amet adipisicing elit. Ratione deserunt!</td>
+                        <td id="td-1">+</td>
+                    </tr>
+                    <tr>
+                        <td>Lorem ipsum dolor sit amet adipisicing elit. Ratione deserunt!</td>
+                        <td id="td-1">+</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="seven-col-2">
+                <img src="Images/Images/Img-8.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section class="eight-container" id="client">
+        <div class="eight-content">
+            <div class="eight-top">
+                <h1>Here's what they have to say...</h1>
+            </div>
+            <div class="eight-row">
+                <div class="eight-col-1">
+                    <img src="Images/Card/card-1.jpg">
+                    <div class="eight-col-1-1">
+                        <h1>Walter White</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi atque corrupti dignissimos.</p>
+                    </div>
+                </div>
+                <div class="eight-col-2">
+                    <img src="Images/Card/card-2.jpg">
+                    <div class="eight-col-2-1">
+                        <h1>Sarah Johnson</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis blanditiis sapiente sunt.</p>
+                    </div>                    
+                </div>
+                <div class="eight-col-3">
+                    <img src="Images/Card/card-3.jpg">
+                    <div class="eight-col-3-1">
+                        <h1>William Anderson</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi atque corrupti dignissimos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="nine-content" id="booking">
+        <div class="nine-row">
+            <div class="nine-col-1">
+                <h1>Be updated!</h1>
+                <form>
+                    <input type="text" placeholder="First Name*" id="first"><br>
+                    <input type="text" placeholder="Last Name*" id="last"><br>
+                    <input type="email" placeholder="Emain Subject*" id="email"><br>
+                    <input type="text" placeholder="Write something here..." id="write"><br>
+                    <button type="submit" id="submit">Submit Email</button>
+                </form>
+            </div>
+            <div class="nine-col-2">
+                <img src="Images/Images/Img-9.jpg">
+            </div>
+        </div>
+    </section>
+
+    <footer id="about">
+        <div class="ten-content">
+            <div class="ten-row-1">
+                <div class="ten-col-1">
+                    <h1>My Log Travels</h1>
+                </div>
+                <div class="ten-col-2">
+                    <table>
+                        <tr>
+                            <th>Quick Links</th>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Home</a></td>
+                            <td><a href="#">Travels</a></td>
+                            <td><a href="#">Recommendations</a></td>
+                            <td><a href="#">Mission Statement</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">About Us</a></td>
+                            <td><a href="#">Promo Flights</a></td>
+                            <td><a href="#">Guides</a></td>
+                            <td><a href="#">The Team</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">My Travel Logs</a></td>
+                            <td><a href="#">Travel Routes</a></td>
+                            <td><a href="#">Blogs</a></td>
+                            <td><a href="#">Contact Us</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="ten-row-2">
+                <h4>2022-2023 My Log Travels. All Rights Reserved.</h4>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+
+        let login = document.getElementById("login")
+
+        function hide(){
+            login.style.display = "none";
+        }
+        
+        function show(){
+            login.style.display = "block";
+        }
+
+    </script>
+
+</body>
+</html>
